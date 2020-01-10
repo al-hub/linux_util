@@ -8,8 +8,6 @@ will be open the new world!
 
 setting
 vim /etc/lynx/lynx.cfg
-FORCE_SSL_COOKIES_SECURE:TRUE
-SET_COOKIES:TRUE
 ACCEPT_ALL_COOKIES:TRUE
 
 shortcut
