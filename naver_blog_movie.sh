@@ -7,6 +7,7 @@
 
 
 #  curl "https://blog.naver.com/PostList.nhn?from=postList&blogId=fine1177&categoryNo=21&currentPage=1" | grep logNo | grep href | sed 's/.*logNo\=\(.*\)\&c.*/\1/'       
+#./naver_blog_movie.sh | sed 's/^ .*//' | sed 's/.*end$//' | sort -rk 1 -n | tee rank.log  
 
 address="https://blog.naver.com/PostList.nhn?from=postList&blogId=fine1177&categoryNo=21&currentPage="
 post="https://blog.naver.com/PostView.nhn?blogId=fine1177&logNo="
