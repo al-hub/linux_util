@@ -88,3 +88,10 @@ mpv --lavfi-complex="[vid1][vid2]hstack[vo];[aid1][aid2]amix[ao]" sample01.mp4 -
 
 웹사이트 랭킹
 https://www.similarweb.com/top-websites/korea--republic-of
+
+영화
+https://www.rottentomatoes.com/top/bestofrt/top_100_science_fiction__fantasy_movies/
+https://www.imdb.com/chart/top/
+
+pc게임
+https://www.metacritic.com/browse/games/score/metascore/all/pc/filtered
