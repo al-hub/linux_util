@@ -1,0 +1,44 @@
+
+
+feed43 example)
+######################################################################
+https://feed43.com/
+https://talk.op.gg/s/lol/all?sort=popular
+
+Item (repeatable) Search Pattern*: 
+
+<article class="article-list-item ">
+{*}
+<a href="{%}" class="article-list-item__info">{*}
+<span>{%}</span>{*}
+title="">{%}</span>
+{*}
+</article>
+
+Item Title Template*: 
+Item Link Template*: 
+Item Content Template*: 
+{%2} 
+{%1} 
+{%3} 
+
+Feed URL:  https://feed43.com/7740603637071001.xml ?
+######################################################################
+
+newsboat setting
+######################################################################
+cat > "$HOME/.newsboat/config" << EOF
+browser         "w3m"
+player          "mpv"
+download-path   "~/downloads/%n"
+save-path       "~/downloads"
+reload-threads  20
+cleanup-on-quit yes
+text-width      74
+
+bind-key - quit
+bind-key G end
+bind-key g home
+bind-key j down
+bind-key k up
+######################################################################
