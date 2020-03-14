@@ -84,3 +84,7 @@ mpv --lavfi-complex="[vid1][vid2]hstack[vo];[aid1][aid2]amix[ao]" sample01.mp4 -
 "'hello'"
 ~$ ls -1 *.mp4 | awk '{print "ffmpeg -i \\\"\"" $0 "\"\\\" -vf scale=360:360 sample360_"NR-1".mp4" }' | xargs -i echo {}
 ~$ ls -1 *.mp4 | awk '{print "sudo ffmpeg -i \\\"\"" $0 "\"\\\" -vf scale=360:360 -ss 00:00:00 -t 00:00:30 -async 1 sample360_"NR-1".mp4" }' | xargs -i sh -c {}
+
+
+웹사이트 랭킹
+https://www.similarweb.com/top-websites/korea--republic-of
