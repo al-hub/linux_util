@@ -120,3 +120,7 @@ http://i5on9i.blogspot.com/2015/10/windows-curl.html
 공공데이터 연습
 https://app.swaggerhub.com/apis-docs/Promptech/public-mask-info/20200307-oas3#/v1/get_stores_json
 https://www.data.go.kr/dataset/15043025/openapi.do
+
+
+python REST API
+https://devtalk.kakao.com/t/python-rest-api/37809
