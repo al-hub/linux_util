@@ -84,3 +84,39 @@ mpv --lavfi-complex="[vid1][vid2]hstack[vo];[aid1][aid2]amix[ao]" sample01.mp4 -
 "'hello'"
 ~$ ls -1 *.mp4 | awk '{print "ffmpeg -i \\\"\"" $0 "\"\\\" -vf scale=360:360 sample360_"NR-1".mp4" }' | xargs -i echo {}
 ~$ ls -1 *.mp4 | awk '{print "sudo ffmpeg -i \\\"\"" $0 "\"\\\" -vf scale=360:360 -ss 00:00:00 -t 00:00:30 -async 1 sample360_"NR-1".mp4" }' | xargs -i sh -c {}
+
+
+웹사이트 랭킹
+https://www.similarweb.com/top-websites/korea--republic-of
+
+영화
+https://www.rottentomatoes.com/top/bestofrt/top_100_science_fiction__fantasy_movies/
+https://www.imdb.com/chart/top/
+
+pc게임
+https://www.metacritic.com/browse/games/score/metascore/all/pc/filtered
+
+
+REST API
+
+curl 옵션 
+https://www.lesstif.com/ws/%EC%95%8C%EC%95%84%EB%91%90%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4/curl
+
+curl 사용방법
+https://webisfree.com/2017-05-25/curl%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+
+계정연결
+http://blog.naver.com/PostView.nhn?blogId=hanajava&logNo=221475382900&categoryNo=52&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
+한글사용(띄어쓰기)
+http://blog.naver.com/PostView.nhn?blogId=hanajava&logNo=221475382900&categoryNo=52&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
+c++ 한글인코딩
+http://jeremyko.blogspot.com/2018/01/libcurl-post-encoding.html
+
+따옴표 주의
+http://i5on9i.blogspot.com/2015/10/windows-curl.html
+
+공공데이터 연습
+https://app.swaggerhub.com/apis-docs/Promptech/public-mask-info/20200307-oas3#/v1/get_stores_json
+https://www.data.go.kr/dataset/15043025/openapi.do
