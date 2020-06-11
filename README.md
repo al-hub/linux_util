@@ -1,7 +1,8 @@
 # linux_util
 
 
-https://m.blog.naver.com/groad5345/221801293778
+리마요약 https://m.blog.naver.com/groad5345/221801293778
+오답노트 https://m.blog.naver.com/m911117/221830749103  
 
 lynx
 use duckduckgo.com/lite instead of google
