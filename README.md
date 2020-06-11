@@ -1,5 +1,8 @@
 # linux_util
 
+
+https://m.blog.naver.com/groad5345/221801293778
+
 lynx
 use duckduckgo.com/lite instead of google
 +
