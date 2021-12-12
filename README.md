@@ -1,4 +1,5 @@
 # linux_util
+모니터링 https://lunatk.github.io/2020/09/20/20200920-web-monitoring-in-shellscript/  
 
 
 리마요약 https://m.blog.naver.com/groad5345/221801293778
