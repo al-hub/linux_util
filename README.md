@@ -140,3 +140,15 @@ pdfunite in-1.pdf in-2.pdf in-n.pdf out.pdf
 
   
 fif 만들기 https://medium.com/harrythegreat/fzf%EB%A1%9C-%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%ED%95%98%EA%B8%B0-cc9e8fee0fb  
+
+
+# awesome cmd
+[256-colour test pattern](https://askubuntu.com/questions/821157/print-a-256-color-test-pattern-in-the-terminal)
+```
+curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/ | bash
+```
+
+[weather](https://github.com/chubin/awesome-console-services)
+```
+curl wttr.in
+```
