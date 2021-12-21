@@ -153,7 +153,7 @@ curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1
 curl wttr.in
 ```
 
-[tldn] too long don't read
+[TL;DR](https://github.com/tldr-pages/tldr) "Too Long; Didn't Read"
 ```
 sudo apt-get install tldn
 ```
