@@ -155,5 +155,5 @@ curl wttr.in
 
 [TL;DR](https://github.com/tldr-pages/tldr) "Too Long; Didn't Read"
 ```
-sudo apt-get install tldn
+sudo apt-get install tldr
 ```
