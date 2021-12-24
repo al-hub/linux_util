@@ -157,3 +157,9 @@ curl wttr.in
 ```
 sudo apt-get install tldr
 ```
+
+xxd
+```
+xxd -ps -c 128 input.txt output.xxd
+xxd -ps -r output.xxd input.restore
+```
