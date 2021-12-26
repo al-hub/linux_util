@@ -163,3 +163,9 @@ xxd
 xxd -ps -c 128 input.txt output.xxd
 xxd -ps -r output.xxd input.restore
 ```
+
+nyancat
+```
+sudo apt-get install nyancat
+nyancat
+```
